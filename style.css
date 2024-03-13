@@ -144,6 +144,98 @@ body {
     position: relative;
     /* left: 100px; */
 }
+.middle-heading {
+    text-align: center;
+}
+
+.card1 {
+    background-color: rgba(182, 239, 73, .2);
+    border-radius: 10px;
+    color: #424242;
+    cursor: default;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 1.5s ease-out;
+    width: 150px;
+    height: auto;
+
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 60px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+    position: relative;
+    left: -20px;
+}
+
+.card2-img {
+    width: 390px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+
+}
+
+.card-paras {
+    background-color: rgba(0, 0, 0, .6);
+    width: 390px;
+    /* height: auto; */
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -310px;
+    height: 276px;
+    left: 62px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.card-paras>h3 {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-paras>button {
+    background-color: #8dc63f;
+    color: white;
+    width: 360px;
+    position: relative;
+    top: -15px;
+    left: 15px;
+    height: 40px;
+    /* font-size: 1px; */
+    border-radius: 10px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-paras1 {
+    position: relative;
+    left: -2px;
+}
+
+.card-paras2 {
+    position: relative;
+    left: -61px;
+}
 
 
 
@@ -210,4 +302,51 @@ body {
     }
 
     /* first section ended */
+    /* second section started */
+
+    .middle-heading {
+        text-align: center;
+        width: 100%;
+    }
+
+    .middle {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .card1 {
+        width: 80%;
+        margin: 10px;
+
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-paras {
+       top: -874px;
+       left: 21px;
+    }
+
+    .card-paras1 {
+        top: -596px;
+        left:-338px;
+        width: 390px;
+    }
+
+    .card-paras2 {
+       top: -311px;
+       left: -700px;
+        width: 390px;
+    }
+    /* second section ended */
+
 }
