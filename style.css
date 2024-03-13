@@ -236,6 +236,96 @@ body {
     position: relative;
     left: -61px;
 }
+.icons {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.icons>img {
+    width: 40px;
+    height: 40px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.part2 {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.whatsapp-icon {
+    background-color: green;
+}
+
+.special-para {
+
+    line-height: 0;
+}
+
+.main-footer {
+    background-image: url(images/footer-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #424242;
+    position: relative;
+    top: -250px;
+    padding: 40px;
+}
+
+.footer-img-2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid #686868;
+    border-bottom: 1px solid #686868;
+}
+
+.footer-img-2>img {
+    width: 250px;
+}
+
+.last-para {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    /* font-weight: bold; */
+}
+
+.para-special {
+    border-bottom: 1px solid #686868;
+
+}
+
+.last-para2 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    /* margin-top: 15px; */
+}
+
+.last-para>p>a {
+    text-decoration: none;
+}
+
+.last-para1 {
+
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
 
 
 
@@ -332,21 +422,41 @@ body {
     }
 
     .card-paras {
-       top: -874px;
-       left: 21px;
-    }
+        top: -874px;
+        left: 106px;
+     }
 
-    .card-paras1 {
-        top: -596px;
-        left:-338px;
-        width: 390px;
-    }
+     .card-paras1 {
+         top: -596px;
+         left:-257px;
+         width: 390px;
+     }
 
-    .card-paras2 {
-       top: -311px;
-       left: -700px;
-        width: 390px;
-    }
+     .card-paras2 {
+        top: -311px;
+        left: -615px;
+         width: 390px;
+     }
     /* second section ended */
-
+     /* footer started */
+     .main-footer{
+        flex-direction: column;
+    }
+    .part1{
+       align-items: center;
+    }
+    .part2{
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .logo
+    {
+        padding: 10px;
+        margin: 10px;
+    }
+    /* footer ended */
 }
